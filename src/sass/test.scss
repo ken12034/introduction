@@ -1,0 +1,26 @@
+.item{
+  display: inline-block;
+}
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    padding-left: 10px;
+
+    a{
+      color:#ddd;
+    }
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+}

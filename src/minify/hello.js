@@ -1,0 +1,1 @@
+function hello(){return greeting+name+go}var name="abgne.tw",greeting="hello~",go="!";
