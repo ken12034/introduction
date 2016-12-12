@@ -3,4 +3,21 @@
   .left, .right{
     width : 100%;
    }
+   .list{
+     padding: 0px;
+   }
+   .center .center-content {
+     padding: 10px 10px 40px;
+   }
+   .work-item{
+     width : 50%;
+     margin-bottom: 50px;
+     position: relative;
+   }
+}
+@media(max-width:542px){
+  .work-item{
+    width : 100%;
+  }
+
 }

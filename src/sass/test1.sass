@@ -33,13 +33,13 @@ h1
   width : 30%
   border: 0px solid #111
   float : left
-  box-shadow: 2px 4px 4px 0px #aaa
+  box-shadow: 0px 4px 14px 0px #aaa
   background: #fff
-  margin-right: 1%
+  margin-right: 2%
   margin-bottom: 15px
 
 .right
-  width: 69%
+  width: 68%
   margin: 0px
   margin-bottom: 20px
 
@@ -57,9 +57,19 @@ h1
     top: 10px
     left: 10px
     color: #000
+    font-weight: bold
 
 
 .top2
+  width: 90%
+  color : #001
+  font-size: 14px
+  margin: 0 auto 20px
+  border-bottom: 1px solid #ddd
+  p
+    margin: 30px 0px
+
+.top3
   width: 90%
   color : #001
   font-size: 14px
@@ -78,6 +88,8 @@ h1
     font-size: 16px
     line-height: 40px
     border-bottom: 1px solid #ddd
+  .list-item-content
+    line-height: 25px
 
 .title
   font-size: 20px
@@ -107,8 +119,59 @@ h1
 
 .center
   width : 100%
-  height: 500px
   box-shadow: 2px 4px 4px 0px #aaa
   background: #fff
   .center-content
-    padding: 10px 30px
+    padding: 10px 30px 40px
+
+
+.work-item
+  width: 25%
+  float: left
+  .work-item-content
+    margin: 5px
+    height: 250px
+    position: relative
+  .work-item-title
+    text-align: center
+    font-size: 16px
+
+
+.image1
+  background: url(../img/01.jpg)
+  background-size: 400px
+  background-position: -25px -35px
+  transition: background-size 1s, background-position 1s
+.image1:hover
+  background: url(../img/01.jpg)
+  background-size: 500px
+  background-position: -70px -35px
+
+.image2
+  background: url(../img/02.jpg)
+  background-size: 400px
+  background-position: -25px -35px
+  transition: background-size 1s, background-position 1s
+.image2:hover
+  background: url(../img/02.jpg)
+  background-size: 600px
+  background-position: -125px -35px
+
+.image3
+  background: url(../img/03.jpg)
+  background-size: 400px
+  background-position: -40px 0px
+  transition: background-size 1s, background-position 1s
+.image3:hover
+  background: url(../img/03.jpg)
+  background-size: 600px
+  background-position: -40px -124px
+
+.image4
+  background: url(../img/04.jpg)
+  background-size: 800px
+  background-position: -250px -100px
+  transition: background-size 1s, background-position 1s
+.image4:hover
+  background-size: 1000px
+  background-position: -350px -100px
