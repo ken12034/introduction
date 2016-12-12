@@ -3,4 +3,11 @@
   .left, .right{
     width : 100%;
    }
+   .list{
+     padding: 0px;
+   }
+   .work-item{
+     width : 100%;
+     margin-bottom: 50px;
+   }
 }
